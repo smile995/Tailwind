@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tailwind CSS</title>
+  </head>
+  <!-- for vanila css ==> class="somthing" -->
+  <!-- for tailwind css ==>  class="text-black font-xl border " -->
+  <!-- for tailwind css with framework ==>  className="text-black font-xl border " -->
+  <!-- margin: auto ==> mx-auto -->
+  <!-- width: 50px ==> w-10 -->
+  <!-- in tailwind 1 means 4pixel for vanila css
+ width:60px ==> w-15
+ -->
+
+  <!-- if you want to apply fixed somthing then use [value] -->
+  <body class="max-w-7xl m-auto">
+    <!-- header consist navber and banner only -->
+    <header>
+      <nav class="flex justify-between items-center">
+        <div>
+          <img class="w-32" src="./assets/logo.png" alt="" />
+          <!-- logo asbe -->
+        </div>
+        <div>
+          <!-- manu option -->
+          <ul class="flex gap-10 font-semibold">
+            <li>Home</li>
+            <li class="text-zinc-500">Shop</li>
+            <li class="text-zinc-500">About Us</li>
+            <li>Cart ($58)</li>
+          </ul>
+        </div>
+      </nav>
+      <!-- this banner section -->
+      <section>
+        <div class="flex justify-between items-center my-4 h-[420px]">
+          <div>
+            <!-- text asbe -->
+            <p class="text-6xl font-bold">
+              ALWAYS
+              <span class="text-[#E95A08]"
+                >FRESH <br />
+                FLOWERS</span
+              >
+            </p>
+            <p class="text-zinc-500 mt-2">
+              Indulge your senses with the beauty and fragrance of <br />
+              our fresh flower shop. From classic roses to exotic <br />blooms,
+              we offer a wide variety of fresh flowers that <br />
+              are perfect for any occasion.
+            </p>
+          </div>
+          <div>
+            <!-- img asbe -->
+            <img src="./assets/hero-flower.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- consist all content about a project -->
+    <main>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+    <!-- footer only -->
+    <footer></footer>
+  </body>
+</html>
